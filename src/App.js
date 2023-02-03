@@ -13,7 +13,13 @@ function App() {
   const nuevaTarea = (tarea) => {
      setListaTareas([tarea, ...listaTareas]);           //expres operador 
      
+
+
+
   }
+
+
+  
 
   const borrar = (id) => {
     const listaFiltrada = listaTareas.filter ((e , index) => index !== id);

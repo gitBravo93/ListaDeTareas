@@ -19,7 +19,6 @@ function App() {
   }
 
 
-  
 
   const borrar = (id) => {
     const listaFiltrada = listaTareas.filter ((e , index) => index !== id);
@@ -40,6 +39,7 @@ function App() {
   }
 
   return (
+    <div>
     <div className='App'>
       <TareaForm 
         nuevaTarea={nuevaTarea}
@@ -59,6 +59,7 @@ function App() {
                }
         </div>
 
+    </div>
     </div>
   );
 }
